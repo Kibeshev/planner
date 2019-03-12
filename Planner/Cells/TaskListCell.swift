@@ -7,7 +7,7 @@
 //
 
 
- // мой класс для ячейки из сториборда
+// мой класс для ячейки из сториборда
 import UIKit
 
 class TaskListCell: UITableViewCell {
