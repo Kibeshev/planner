@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Планировщик" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hyk-hs-bfh">
+                                <rect key="frame" x="16" y="132" width="382" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Check_icon" translatesAutoresizingMaskIntoConstraints="NO" id="SWq-vB-NdL">
+                                <rect key="frame" x="177" y="248" width="60" height="60"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="EK6-gx-QFI"/>
+                                    <constraint firstAttribute="height" constant="60" id="wKU-pT-kDc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Тестовый проект для изучения ios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HG-Pg-ULv">
+                                <rect key="frame" x="60.666666666666657" y="197" width="293" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copiright () Кирилл Кибешев 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8b-d1-0LA">
+                                <rect key="frame" x="62" y="695" width="290" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.63601864999053415" green="0.12291331000924241" blue="0.87263196243523322" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Y8b-d1-0LA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7hB-0M-cxE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hyk-hs-bfh" secondAttribute="trailing" constant="87" id="7yx-45-KL1"/>
+                            <constraint firstItem="Hyk-hs-bfh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="112" id="8U5-DN-DTe"/>
+                            <constraint firstItem="4HG-Pg-ULv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZuS-42-7n1"/>
+                            <constraint firstItem="SWq-vB-NdL" firstAttribute="top" secondItem="4HG-Pg-ULv" secondAttribute="bottom" constant="30" id="bK3-oE-W6p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hyk-hs-bfh" secondAttribute="trailing" constant="16" id="d5p-Bv-rVD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y8b-d1-0LA" secondAttribute="bottom" constant="20" id="hsw-Vj-Ak4"/>
+                            <constraint firstItem="Hyk-hs-bfh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="jFG-I1-CxP"/>
+                            <constraint firstItem="SWq-vB-NdL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tf5-VV-GaD"/>
+                            <constraint firstItem="Hyk-hs-bfh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wPc-RG-Flq"/>
+                            <constraint firstItem="4HG-Pg-ULv" firstAttribute="top" secondItem="Hyk-hs-bfh" secondAttribute="bottom" constant="30" id="wPy-IR-lRP"/>
+                            <constraint firstItem="Hyk-hs-bfh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yRy-ot-MHd"/>
+                        </constraints>
+                        <edgeInsets key="layoutMargins" top="0.0" left="21" bottom="0.0" right="20"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Check_icon" width="512" height="512"/>
+    </resources>
+</document>
